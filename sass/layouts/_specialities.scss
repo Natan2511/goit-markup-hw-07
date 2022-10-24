@@ -1,0 +1,29 @@
+.specialities-articles {
+  display: flex;
+  /* justify-content: center; */
+  gap: 30px;
+  margin-left: auto;
+  &-after {
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--very-dark-gray);
+    padding-bottom: 10px;
+  }
+  &-tittle {
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--dark-gray);
+  }
+  &-icon {
+    background: var(--light-grayish-blue);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 270px;
+  }
+}
